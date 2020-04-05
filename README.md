@@ -1,43 +1,23 @@
-# BackEnd-JavaTechnotes
-Java, Springboot, Rest, JaxB soap, Redis, Drools, Flowable
+# BackEnd-Technotes
+Algorithms
+BPMN - Camunda, Flowable
+BuildTool - Maven, Gradle
+Database - Sql, NoSql- Druid, MongoDb, ElasticSearch
+DatabaseChanges - Liquibase
+DesignPatterns
+DesignPrinciples
+InMemory - HazzleCast, Redis
+Java - Concepts
+JavaFrameworks - GWT, Spring, Springboot
+JPA - Hibernate
+MessagingQueue - RabbitMq
+RiskAlerts - NiceActimize
+RuleManagementService - Drools
+WebService - Rest, Soap
 
-# Java Topics Learned
-Topics By Week
+GitCommands:
+git remote add origin https://github.com/Sathish-509/BackEnd-Technotes.git
+git push -u origin master
 
-Exceptions
-
-# Spring Topics Learned
-Topics  By Week
-
-Exceptions
-
-# SpringBoot Topics Learned
-Topics By Week
-
-Exceptions
-
-# Rest Topics Learned
-Topics By Week
-
-Exceptions
-
-# SOAP-JAXB Topics Learned
-Topics By Week
-
-Exceptions
-
-# REDIS Topics Learned
-Topics By Week
-
-Exceptions
-
-# DROOLS Topics Learned
-Topics By Week
-
-Exceptions
-
-# FLOWABLE Topics Learned
-Topics By Week
-
-Exceptions
-
+git remote -v
+git remote remove origin
