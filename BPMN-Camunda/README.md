@@ -113,4 +113,36 @@ Reason can be instance name wrong.
 
 http://localhost:8080/engine-rest/process-definition/key/payment-retrieval/start
 
+Request 
+{
+	"variables": {
+		"amount": {
+			"value":555,
+			"type":"long"
+		},
+		"item": {
+			"value": "item-xyz"
+		}
+	}
+}
+
+Response:
+{
+    "links": [
+        {
+            "method": "GET",
+            "href": "http://localhost:8080/engine-rest/process-instance/e518d259-7c6d-11ea-9ac0-342387c61a93",
+            "rel": "self"
+        }
+    ],
+    "id": "e518d259-7c6d-11ea-9ac0-342387c61a93",
+    "definitionId": "payment-retrieval:1:35ff223a-7c67-11ea-9ac0-342387c61a93",
+    "businessKey": null,
+    "caseInstanceId": null,
+    "ended": false,
+    "suspended": false,
+    "tenantId": null
+}
+http://localhost:8080/camunda/app/cockpit/default
+
 
