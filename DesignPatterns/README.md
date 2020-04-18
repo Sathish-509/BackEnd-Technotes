@@ -61,4 +61,11 @@ Disadvantage:
 
 Command:
 
-template
+template:
+When to use?
+When need to define a set of specific steps every time with a fixed order so that this can be enforced by implementation classes
+
+Applicability of template method pattern:
+When we have pre-defined steps to achieve some algorithm.
+When we want to avoid duplicating code, moving the common implementation and steps in the base class.
+
